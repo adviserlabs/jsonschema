@@ -5,6 +5,9 @@ build-backend = "hatchling.build"
 [tool.hatch.version]
 source = "vcs"
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [project]
 name = "jsonschema"
 description = "An implementation of JSON Schema validation for Python"
