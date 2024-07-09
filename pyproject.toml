@@ -40,7 +40,7 @@ classifiers = [
 dynamic = ["version", "readme"]
 dependencies = [
   "attrs>=22.2.0",
-  "git+ssh://git@github.com/adviserlabs/jsonschema-specifications.git",
+  "jsonschema-specifications @ git+ssh://git@github.com/adviserlabs/jsonschema-specifications",
   "referencing>=0.28.4",
   "rpds-py>=0.7.1",
 
